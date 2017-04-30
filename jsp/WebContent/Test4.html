@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- <script type="text/javascript">
+i=1;
+function fun(){
+	var f=document.getElementById("f1");
+	var newNode = document.createElement("input");
+
+	//设置节点的信息
+	newNode.type = "text";
+	newNode.value = "mary";
+	newNode.style.color = "red";
+	newNode.id="i"+ ++i;
+	f.appendChild(newNode);
+
+}
+function funs(){
+	var f=document.getElementById("f1");
+	var oldChild=document.getElementById("i"+ --i);
+	f.removeChild(oldChild);
+}
+</script>
+<button onclick="fun()">sdf</button>
+<button onclick="funs()">sdf</button>
+<form action="" id="f1">
+</form> -->
+<script type="text/javascript">
+var reg=/^[\u4e00-\u9fa5]{1,7}$|^[\dA-Za-z_]{1,14}$/;
+var str="我爱北京天安门";
+var b=reg.test(str);
+alert(b);
+</script>
+</body>
+</html>
